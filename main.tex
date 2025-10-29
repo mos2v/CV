@@ -1,0 +1,287 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape MOSTAFA SAEED} \\ \vspace{1pt}
+    Giza, Egypt \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +201090650948 ~ \href{mailto:officialmostafa@protonmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{officialmostafa@protonmail.com}} ~ 
+    \href{https://linkedin.com/in/mos2v}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/mos2v}}  ~
+    \href{https://github.com/mos2v}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/mos2v}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ain Shams University}{Sep. 2021 -- Oct 2025}
+      {Bachelor of Science in Computer Science}{Cairo, Egypt}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{3}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item\small Data Structures
+                \item Software Engineering
+                \item Algorithms Analysis
+                \item Artificial Intelligence
+                \item Deep Learning
+                \item Computer Architecture
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Samsung Innovation Campus}{Aug 2024 -- Nov 2024}
+      {Artificial Intelligence Intern}{Cairo, Egypt}
+      \resumeItemListStart
+        \resumeItem{Developed ML models for business applications: house price prediction (R² 0.84), employee attrition (F1: 90\%), and customer segmentation (silhouette: 0.86), enabling data-driven decision-making.}
+        \resumeItem{Engineered deep learning solutions including an ANN for airline satisfaction prediction (94\% accuracy) and LSTM networks for power consumption forecasting (MSE: 0.0089).}
+        \resumeItem{Implemented computer vision projects using CNNs and transfer learning: achieved 80\% accuracy on Intel Image Classification and 97.5\% on Animals-10 dataset using DenseNet121.}
+        \resumeItem{Developed a CycleGAN for Monet-style image generation (7,000+ images) and fine-tuned Llama 3.2B model using LoRA and Unsloth, achieving 2× speedup and 60\% memory reduction.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Commercial International Bank}{July 2024 -- Aug 2024}
+      {Summer Intern}{Cairo, Egypt}
+      \resumeItemListStart
+        \resumeItem{Developed skills in digital transformation, data analysis, and professional 
+  communication through workshops and business simulations.}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+    {CodSoft} {June 2024 -- July 2024}
+    {Artificial Intelligence Intern} {Remote}
+    \resumeItemListStart
+    \resumeItem{Built an image captioning model using VGG16 and LSTM networks, achieving a BLEU-1 score of 0.5336 and a BLEU-2 score of 0.3084, significantly improving image recognition accuracy.}
+    \resumeItem{Implemented a Tic Tac Toe game with an AI opponent utilizing the Minimax algorithm, showcasing expertise in game development and artificial intelligence.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Smart Citti dwc}{October 2023 -- November 2023}
+      {Software Engineer Intern}{Dubai, United Arab Emirates}
+      \resumeItemListStart
+      \resumeItem{Developed a full-stack Todo application using Angular and Node.js, integrating a RESTful API for efficient task management.}
+      \resumeItem{Optimized API endpoints to handle asynchronous operations effectively, improving average server response time by approximately 30\%.}
+      \resumeItem{Developed reusable Angular services for frontend-backend communication, reducing code redundancy by 30\%.}
+      \resumeItemListEnd
+    \
+  \resumeSubHeadingListEnd
+\vspace{-22pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{AI Travel Planner}  GP Project $|$ \emph{Python, Langchain, FAISS,  FastAPI, Google Gemini}}{January 2021}
+          \resumeItemListStart
+            \resumeItem{Engineered production RAG-based travel planning system integrating FastAPI, LangChain, FAISS vector stores, and multilingual-e5-large embeddings across 10+ LLM providers (Google Gemini, NVIDIA, Mistral), implementing dynamic model switching with automated token tracking and memory-optimized dual vector stores reducing initialization overhead by 40\%}
+            \resumeItem{ Deployed scalable API to DigitalOcean cloud infrastructure using Docker containerization, achieving 99.5\% uptime and serving ~150 daily requests with sub-2-second response times for AI-generated travel itineraries and <500ms for session operations, with automated health monitoring and cross-origin resource sharing for frontend integration.}
+            \resumeItem{Built end-to-end data pipeline processing Google Places API data, landmark pricing, and travel guides into 6700+ semantically-searchable documents optimized for retrieval, supporting multilingual queries with CUDA-accelerated inference for Egyptian tourism recommendations.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+          \resumeProjectHeading
+          {\textbf{LLM Finetuning} $|$ \emph{Python, Colab, Unsloth, QLoRa} } {October 2024}
+          \resumeItemListStart
+          \resumeItem{Fine-tuned Llama-3.2-1B-Instruct on medical Q\&A datasets, achieving optimized LoRA adapters with 30\% reduced VRAM usage, 2x faster inference, and 95\%+ training efficiency in under 60 steps.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+          \resumeProjectHeading
+          {\textbf{Forum Discussion Categorization $|$ }Python, Transformer, Colab, kaggle}{June 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a self-attention Transformer model for NLP classification, achieving 71\% test accuracy with custom preprocessing pipelines and tokenization techniques.}
+            \resumeItem{Optimized training through hyperparameter tuning and regularization, reducing overfitting and enhancing performance by 20\% compared to baseline models.}
+          \resumeItemListEnd
+          
+          \vspace{-13pt}
+          
+          \resumeProjectHeading
+          {\textbf{Burrows-Wheeler Compression} $|$ \emph{C\#, Visual Studio}}{May 2024}
+          \resumeItemListStart
+            \resumeItem{Implemented a highly efficient Burrows-Wheeler Transform (BWT) algorithm in C\#, leveraging advanced data structures like priority queues and Timsort to achieve over 45\% file size reduction with near-instant processing.}
+          \resumeItemListEnd 
+          \vspace{-10pt}
+          
+          \resumeProjectHeading
+          {\textbf{Movie Reviews Sentiment Analysis} $|$ \emph{Python, VS Code, Scikit learn }}{April 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a Python-based sentiment analysis model that achieved over 90\% accuracy in classifying movie reviews using advanced NLP techniques, optimized SVM models, and efficient model reuse with joblib.}
+          \resumeItemListEnd 
+          \resumeSubHeadingListEnd
+          
+\vspace{-10pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, C, HTML/CSS, JavaScript, SQL, C++} \\
+     \textbf{Developer Tools}{: Colab, Kaggle, VS Code, Visual Studio, IntelliJ IDEA, Google Cloud Console, Digital Ocean } \\
+     \textbf{Technologies/Frameworks}{: Linux, Git, Virtual Machines, BASH, NLTK, SpaCy, scikit-learn, Pytorch, TensorFlow, Keras, Seaborn, LoRA/QLoRA, Flask, Streamlit, Unsloth, Jenkins, GitHub, Docker, FastAPI, Scikit learn, Langchain} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+\section{Certifications}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Mathematics for ML \& Data Science}{October 2025}
+    {DeepLearning.AI}{}
+  \resumeSubheading
+    {Machine Learning Specialization}{June 2025}
+    {DeepLearning.AI, Stanford University}{}
+  \resumeSubheading
+    {Deep Learning Specialization}{November 2025}
+    {DeepLearning.AI, Stanford University}{}
+  \resumeSubheading
+    {Associate Data Scientist in Python}{November 2025}
+    {Datacamp}{}
+  \resumeSubheading
+    {CS50's Introduction to Computer Science}{September 2024}
+    {Harvard University}{}
+\resumeSubHeadingListEnd
+
+%-----------INVOLVEMENT---------------
+% \section{Leadership / Extracurricular}
+%     \resumeSubHeadingListStart
+%         \resumeSubheading{Fraternity}{Spring 2020 -- Present}{President}{University Name}
+%             \resumeItemListStart
+%                 \resumeItem{Achieved a 4 star fraternity ranking by the Office of Fraternity and Sorority Affairs (highest possible ranking).}
+%                 \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
+%                 \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
+%             \resumeItemListEnd
+        
+%     \resumeSubHeadingListEnd
+
+
+
+
+\end{document}
